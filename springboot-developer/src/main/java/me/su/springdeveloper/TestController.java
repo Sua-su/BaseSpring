@@ -20,6 +20,12 @@ public class TestController {
     public ResponseEntity<Member> createMember(@RequestBody Member member) {
         return ResponseEntity.ok(testService.saveMember(member));
     }
+
+    @GetMapping("/test2")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("hello World");
+    }
+
 }
 
 //    @PostMapping("/test")

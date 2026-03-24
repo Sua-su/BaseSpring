@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,32 +56,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build springboot-developer.executor": "Run",
-    "Gradle.JUnitCycleTest.executor": "Run",
-    "Gradle.JUnitQuiz.executor": "Run",
-    "Gradle.JUnitTest.executor": "Run",
-    "Gradle.TestControllerTest.executor": "Run",
-    "Gradle.TestControllerTest.getAllMembers.executor": "Debug",
-    "Gradle.springboot-developer 빌드.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "<알 수 없음>",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources",
-    "onboarding.tips.debug.path": "/Users/su/Documents/SpringBaseStudy/springboot-developer/src/main/java/me/su/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build springboot-developer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitCycleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitQuiz.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestController.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestControllerTest.getAllMembers.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.springboot-developer 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootDeveloperApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;알 수 없음&gt;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/su/Documents/SpringBaseStudy/springboot-developer/src/main/java/me/su/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -96,7 +97,7 @@
       <recent name="me.su.springdeveloper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestControllerTest">
+  <component name="RunManager" selected="Gradle.TestController">
     <configuration name="JUnitCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,7 +179,34 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestController" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.su.springdeveloper.TestController&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestControllerTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -205,28 +233,13 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="springboot-developer.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="me.su.springdeveloper.SpringBootDeveloperApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.su.springdeveloper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestControllerTest" />
+        <item itemvalue="Gradle.TestController" />
+        <item itemvalue="Gradle.TestControllerTest (1)" />
         <item itemvalue="Gradle.JUnitQuiz" />
         <item itemvalue="Gradle.JUnitCycleTest" />
         <item itemvalue="Gradle.JUnitTest" />
-        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
       </list>
     </recent_temporary>
   </component>

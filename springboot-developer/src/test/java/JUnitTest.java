@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.util.Assert;
 
 public class JUnitTest {
 
@@ -24,6 +23,7 @@ public class JUnitTest {
 
         int sum = n1 + n2;
 
-        Assertions.assertEquals(3 , sum);
+        // 1+3은 4여야 합니다.
+        Assertions.assertEquals(4 , sum);
     }
 }
