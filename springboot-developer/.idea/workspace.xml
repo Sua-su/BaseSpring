@@ -61,6 +61,8 @@
     "Gradle.JUnitCycleTest.executor": "Run",
     "Gradle.JUnitQuiz.executor": "Run",
     "Gradle.JUnitTest.executor": "Run",
+    "Gradle.MemberRepositoryTest (1).executor": "Run",
+    "Gradle.MemberRepositoryTest.executor": "Run",
     "Gradle.springboot-developer 빌드.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/backup" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JUnitQuiz">
+  <component name="RunManager" selected="Gradle.MemberRepositoryTest (1)">
     <configuration name="JUnitCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,7 +142,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberRepositoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,7 +155,34 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;JUnitTest&quot;" />
+            <option value="&quot;me.su.springdeveloper.MemberRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;springdeveloper.MemberRepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,10 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberRepositoryTest (1)" />
+        <item itemvalue="Gradle.MemberRepositoryTest" />
+        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
         <item itemvalue="Gradle.JUnitQuiz" />
         <item itemvalue="Gradle.JUnitCycleTest" />
-        <item itemvalue="Gradle.JUnitTest" />
-        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
       </list>
     </recent_temporary>
   </component>
