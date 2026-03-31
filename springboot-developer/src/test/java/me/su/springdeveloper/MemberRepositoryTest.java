@@ -21,18 +21,21 @@ public class MemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 
-    @Sql("/insert-members.sql")
     @Test
+    @Sql("/insert-members.sql")
+
     void getAllMembers() {
         //given
         //when
         List<Member> members = memberRepository.findAll();
+        //then (검증)
         assertThat(members.size()).isEqualTo(3);
 
 
     }
-    @Sql("/insert-members.sql")
     @Test
+    @Sql("/insert-members.sql")
+
     void getMemberById() {
 
         Member member = memberRepository.findById(2L).get();
@@ -41,7 +44,9 @@ public class MemberRepositoryTest {
 
     }
 
-    void getMemberbyName(){
+    @Test
+    @Sql("/insert-members.sql")
+    void getMemberByName(){
         Member member = memberRepository.findByName("C").get();
         assertThat(member.getName()).isEqualTo("C");
     }

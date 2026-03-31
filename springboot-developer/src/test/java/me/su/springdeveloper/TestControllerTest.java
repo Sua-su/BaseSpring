@@ -35,7 +35,7 @@ class TestControllerTest {
         // given (데이터 준비)
         final String url = "/test";
         // email 필드가 nullable=false 이므로 포함해서 저장해야 합니다.
-        Member savedMember = testRepository.save(new Member(null, "hong", "hong@gmail.com"));
+        Member savedMember = testRepository.save(new Member(null, "hong"));
 
         // when (기능 실행)
         final ResultActions result = mockMvc.perform(get(url)

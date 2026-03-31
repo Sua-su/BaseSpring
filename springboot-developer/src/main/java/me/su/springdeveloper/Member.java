@@ -18,13 +18,12 @@ public class Member {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    @Column(name = "email", nullable = false)
-    private String email;
+//    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+//    @Column(name = "email", nullable = false)
+//    private String email;
 
-    public Member(String name, String email) {
+    public Member(String name) {
         this.name = name;
-        this.email = email;
     }
 
 }
