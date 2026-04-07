@@ -1,7 +1,6 @@
 package me.su.springdeveloper;
 
-import me.su.springdeveloper.Member;
-import me.su.springdeveloper.TestRepository;
+import me.su.springdeveloper.dao.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

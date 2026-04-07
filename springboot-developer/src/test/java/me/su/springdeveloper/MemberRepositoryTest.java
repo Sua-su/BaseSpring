@@ -1,9 +1,7 @@
 package me.su.springdeveloper;
 
 
-import me.su.springdeveloper.Member;
-import me.su.springdeveloper.MemberRepository;
-import org.hibernate.annotations.processing.SQL;
+import me.su.springdeveloper.dao.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

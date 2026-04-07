@@ -1,6 +1,5 @@
-package me.su.springdeveloper;
+package me.su.springdeveloper.dao;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
 
