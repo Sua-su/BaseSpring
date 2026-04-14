@@ -73,16 +73,18 @@ public class BlogApiControllerTest {
         blogRepository.save(Article.builder().title("title1").content("content1").build());
 
 
-        // when
-        ResultActions result = mockMvc.perform(get(url)
+        // when :get 방식 api/articles
+        ResultActions resultActions = mockMvc.perform(get(url)
                 .accept(MediaType.APPLICATION_JSON_VALUE));
 
-        // then
-        result.andExpect(status().isOk())
+        // then :status ok 사용
+        resultActions.andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].title").value("title1"))
                 .andExpect(jsonPath("$[0].content").value("content1"));
+        
 
     }
+
 }
 
 

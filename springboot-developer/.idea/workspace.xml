@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="39" />
+    <option name="cachedIndexableFilesCount" value="40" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -62,32 +62,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.BlogApiControllerTest.executor": "Run",
-    "Gradle.Build springboot-developer.executor": "Run",
-    "Gradle.JUnitCycleTest.executor": "Run",
-    "Gradle.JUnitQuiz.executor": "Run",
-    "Gradle.JUnitTest.executor": "Run",
-    "Gradle.MemberRepositoryTest (1).executor": "Run",
-    "Gradle.MemberRepositoryTest.executor": "Run",
-    "Gradle.springboot-developer 빌드.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
-    "git-widget-placeholder": "<알 수 없음>",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources",
-    "onboarding.tips.debug.path": "/Users/su/Documents/SpringBaseStudy/springboot-developer/src/main/java/me/su/Main.java",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.BlogApiControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build springboot-developer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitCycleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitQuiz.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberRepositoryTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MemberRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springboot-developer 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootDeveloperApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;알 수 없음&gt;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/su/Documents/SpringBaseStudy/springboot-developer/src/main/java/me/su/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.and.region&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
