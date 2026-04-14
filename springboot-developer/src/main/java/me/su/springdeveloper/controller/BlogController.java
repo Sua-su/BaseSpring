@@ -30,4 +30,10 @@ public class BlogController {
                 .stream().map(ArticleResponse::new).toList();
         return ResponseEntity.ok().body(result);
     }
+
+    @GetMapping("/api/articles/{id}")
+    public ResponseEntity<ArticleResponse> findArticleById(@PathVariable long id){
+        Article article = blogService.findByid(id);
+        return ResponseEntity.ok().body(new ArticleResponse(article));
+    }
 }
