@@ -2,6 +2,7 @@ package me.su.springdeveloper.controller;
 
 import lombok.RequiredArgsConstructor;
 import me.su.springdeveloper.dao.Article;
+import me.su.springdeveloper.dao.UpdateArticleRequest;
 import me.su.springdeveloper.dto.AddArticleRequest;
 import me.su.springdeveloper.dto.ArticleResponse;
 import me.su.springdeveloper.service.BlogService;
@@ -35,5 +36,21 @@ public class BlogController {
     public ResponseEntity<ArticleResponse> findArticleById(@PathVariable long id){
         Article article = blogService.findByid(id);
         return ResponseEntity.ok().body(new ArticleResponse(article));
+    }
+    @DeleteMapping("/api/articles/{id}")
+    public ResponseEntity<Void>deleteArticcle(@PathVariable("id") long id) {
+        blogService.delete(id);
+        return ResponseEntity.ok().build();
+    }
+//    @PutMapping("api/articles/{id}")
+//    public ResponseEntity<Article> updateArticle(@PathVariable long id,
+//                                                 @RequestBody UpdateArticleRequest request) {
+//        Article updateArticles = blogService.update(id, request);
+//        return ResponseEntity.ok().body(updateArticles);
+    @PutMapping("api/articles/{id}")
+    public ResponseEntity<Article> updateArticle(@PathVariable("id") long id, @RequestBody UpdateArticleRequest updateArticleRequest) {
+        Article updateArticles =  blogService.findByid(id);
+        return ResponseEntity.ok().body(updateArticles);
+
     }
 }
